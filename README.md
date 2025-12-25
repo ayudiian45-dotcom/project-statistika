@@ -2,7 +2,7 @@
 
 ## 1. Informasi Penyusun
 
-- **Nama:** `[PUTU AYU DIAN MELANI]`
+- **Nama:** `PUTU AYU DIAN MELANI`
 - **NIM:** `[2515091060]`
 - **Program Studi:** `[Sistem Informasi]`
 - **Mata Kuliah:** Statistika dan Probabilitas
