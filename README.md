@@ -16,9 +16,9 @@ Pada bagian ini, jelaskan secara singkat dataset yang Anda gunakan. Apa saja var
 
 > Dataset yang digunakan dalam proyek ini merupakan data data_startup_saas. Data startup Software as a Service (SaaS) yang berisi informasi kinerja dan karakteristik beberapa startup di berbagai kategori layanan. Dataset ini mencakup data mengenai nama startup, jenis atau kategori layanan yang ditawarkan, pendapatan tahunan dalam miliar rupiah, jumlah pelanggan, nilai pelanggan dalam satuan juta rupiah, serta tingkat churn pelanggan dalam persentase.
 
-Variabel-variabel utama dalam dataset ini meliputi pendapatan tahunan, jumlah pelanggan, nilai pelanggan, dan tingkat churn. Variabel pendapatan dan jumlah pelanggan digunakan untuk menggambarkan performa bisnis startup, sementara nilai pelanggan dan tingkat churn mencerminkan loyalitas serta kualitas hubungan startup dengan pelanggannya.
+> Variabel-variabel utama dalam dataset ini meliputi pendapatan tahunan, jumlah pelanggan, nilai pelanggan, dan tingkat churn. Variabel pendapatan dan jumlah pelanggan digunakan untuk menggambarkan performa bisnis startup, sementara nilai pelanggan dan tingkat churn mencerminkan loyalitas serta kualitas hubungan startup dengan pelanggannya.
 
-Tujuan dari proyek ini adalah untuk memahami karakteristik data startup SaaS melalui analisis statistik deskriptif, menganalisis hubungan antara pendapatan tahunan dan jumlah pelanggan menggunakan analisis korelasi, serta memprediksi tingkat churn pelanggan berdasarkan variabel nilai pelanggan melalui analisis regresi. Hasil analisis diharapkan dapat memberikan gambaran mengenai faktor-faktor yang memengaruhi kinerja dan keberlanjutan startup SaaS.
+> Tujuan dari proyek ini adalah untuk memahami karakteristik data startup SaaS melalui analisis statistik deskriptif, menganalisis hubungan antara pendapatan tahunan dan jumlah pelanggan menggunakan analisis korelasi, serta memprediksi tingkat churn pelanggan berdasarkan variabel nilai pelanggan melalui analisis regresi. Hasil analisis diharapkan dapat memberikan gambaran mengenai faktor-faktor yang memengaruhi kinerja dan keberlanjutan startup SaaS.
 
 ---
 
@@ -51,18 +51,21 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.1. Statistik Deskriptif
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan*
-    >Berdasarkan hasil analisis pada variabel Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai mean sebesar 31,88, median sebesar 31,31, dan modus sebesar 1,87.
+    > Berdasarkan hasil analisis pada variabel Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai mean sebesar 31,88, median sebesar 31,31, dan modus sebesar 1,87.
+    > ![alt text](screenshot)
+    > 
 
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
     > Nilai mean menunjukkan bahwa rata-rata pendapatan tahunan startup berada di sekitar 31,88 miliar rupiah. Nilai median yang hampir sama dengan mean menandakan bahwa sebaran data pendapatan relatif seimbang dan tidak terlalu condong ke salah satu sisi. Sementara itu, nilai modus yang lebih kecil menunjukkan bahwa pendapatan dengan nilai rendah cukup sering muncul dalam dataset, meskipun secara keseluruhan terdapat banyak startup dengan pendapatan yang lebih tinggi.
 
-Secara umum, dapat disimpulkan bahwa sebagian besar startup memiliki pendapatan di kisaran menengah, dengan variasi pendapatan dari yang rendah hingga tinggi, seperti yang terlihat pada histogram.
+> Secara umum, dapat disimpulkan bahwa sebagian besar startup memiliki pendapatan di kisaran menengah, dengan variasi pendapatan dari yang rendah hingga tinggi, seperti yang terlihat pada histogram.
 
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
+    > ![alt text]
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
 
 ### 5.2. Uji Normalitas
