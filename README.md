@@ -65,7 +65,8 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
-    > ![alt text]
+    ![alt text](results/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
+    > 
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
 
 ### 5.2. Uji Normalitas
