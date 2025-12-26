@@ -102,7 +102,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     > Hasil uji Shapiro–Wilk menunjukkan bahwa data tidak terdistribusi normal, sehingga pemilihan metode analisis statistik selanjutnya perlu disesuaikan agar hasil yang diperoleh tetap valid dan dapat dipertanggungjawabkan.
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
-    > 
+    > ![alt text](results/qqplot_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
     > Berdasarkan Q–Q Plot untuk variabel Pendapatan_Tahunan_Miliar_IDR, terlihat bahwa titik-titik data tidak sepenuhnya mengikuti garis lurus (garis diagonal merah). Pada bagian tengah, beberapa titik masih relatif mendekati garis, namun pada bagian kuantil rendah dan kuantil tinggi terlihat penyimpangan yang cukup jelas.
     > Pola titik yang melengkung (tidak linear) menunjukkan bahwa distribusi data menyimpang dari distribusi normal. Penyimpangan ini menandakan bahwa data memiliki bentuk distribusi yang tidak simetris atau memiliki ekor yang berbeda dari distribusi normal.
@@ -110,24 +110,39 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
   - *Nilai r...*
+    > "Koefisien Korelasi (r) = 0.996"
   - *Interpretasi:* Seberapa kuat dan apa arah hubungan antara dua variabel yang Anda uji? (misalnya, korelasi positif kuat, negatif lemah, atau tidak ada korelasi).
+    > strength: "kuat"
+    > direction: "positif"
+    >  "Ini menunjukkan adanya korelasi positif kuat antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR ."
+    > "p-value = 0 adalah signifikan secara statistik (<= 0.05), sehingga kita yakin ada korelasi nyata di populasi."
 - **Visualisasi (Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
+    ![alt text](results/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Biaya_Akuisisi_Pelanggan_Juta_IDR.png)
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
+    > Berdasarkan scatter plot antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR, terlihat bahwa titik-titik data membentuk pola menaik yang jelas dan mengikuti garis tren linear (garis merah). Hal ini menunjukkan adanya hubungan positif antara kedua variabel.Pola titik yang relatif rapat dan searah dengan garis tren mengindikasikan bahwa hubungan antar variabel cukup kuat. Artinya, ketika pendapatan tahunan meningkat, biaya akuisisi pelanggan juga cenderung meningkat secara konsisten. Dengan demikian, pola pada scatter plot mendukung hasil koefisien korelasi yang bernilai positif dan kuat, karena secara visual terlihat hubungan linear yang jelas tanpa penyebaran yang acak.
 
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
   - *Persamaan regresi: Y = b0 + b1*X*
+    > "1. Persamaan Model:  Pendapatan_Tahunan_Miliar_IDR  =  -1.06  +  0.98  *  Biaya_Akuisisi_Pelanggan_Juta_IDR"
   - *Interpretasi:* Jelaskan arti dari koefisien intercept (b0) dan slope (b1) dalam konteks data Anda.
+    >  "   - Intercept (b0) = -1.06 -> Nilai prediksi Pendapatan_Tahunan_Miliar_IDR ketika Biaya_Akuisisi_Pelanggan_Juta_IDR adalah 0."
+    > "   - Slope (b1) = 0.98 -> Setiap kenaikan 1 unit pada Biaya_Akuisisi_Pelanggan_Juta_IDR , diprediksi akan mengubah Pendapatan_Tahunan_Miliar_IDR sebesar 0.98 unit."
 - **Evaluasi Model (R-squared):**
   - *Nilai R-squared...*
+    > "2. Adjusted R-squared = 0.991 atau 99.1 %"
   - *Interpretasi:* Berapa persen variasi dari variabel dependen yang dapat dijelaskan oleh model regresi Anda?
+    > "   - Artinya, 99.1 % variasi pada Pendapatan_Tahunan_Miliar_IDR dapat dijelaskan oleh Biaya_Akuisisi_Pelanggan_Juta_IDR melalui model ini."
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
+    > 1[alt text](results/plot_regresi_Biaya_Akuisisi_Pelanggan_Juta_IDR_vs_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
+    > Garis regresi linear pada grafik menunjukkan hubungan linear positif antara Biaya_Akuisisi_Pelanggan_Juta_IDR dan Pendapatan_Tahunan_Miliar_IDR. Kemiringan garis yang naik menandakan bahwa semakin besar biaya akuisisi pelanggan, maka pendapatan tahunan cenderung meningkat.Nilai Adjusted R-squared sebesar 0,991 menunjukkan bahwa 99,1% variasi pendapatan tahunan dapat dijelaskan oleh biaya akuisisi pelanggan. Hal ini menandakan bahwa model regresi memiliki tingkat kecocokan yang sangat tinggi terhadap data. Titik-titik data yang sebagian besar berada dekat dengan garis regresi juga menunjukkan bahwa hubungan antar variabel bersifat kuat dan konsisten.
 
 ---
 
 ## 6. Kesimpulan
 
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
+> Berdasarkan analisis statistik deskriptif dan inferensial yang telah dilakukan, dapat disimpulkan bahwa data Pendapatan_Tahunan_Miliar_IDR memiliki penyebaran yang cukup tinggi dan tidak terdistribusi normal, yang dibuktikan melalui uji Shapiro–Wilk dan Q–Q Plot. Meskipun demikian, analisis hubungan menunjukkan adanya korelasi linear positif yang sangat kuat antara Biaya_Akuisisi_Pelanggan_Juta_IDR dan Pendapatan_Tahunan_Miliar_IDR. Model regresi linear yang dihasilkan memiliki tingkat kecocokan yang sangat baik (Adjusted R² = 0,991), sehingga biaya akuisisi pelanggan menjadi faktor yang sangat berpengaruh dalam menjelaskan dan memprediksi pendapatan tahunan.
