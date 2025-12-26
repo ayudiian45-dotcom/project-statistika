@@ -136,7 +136,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     > "   - Artinya, 99.1 % variasi pada Pendapatan_Tahunan_Miliar_IDR dapat dijelaskan oleh Biaya_Akuisisi_Pelanggan_Juta_IDR melalui model ini."
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
-    > 1[alt text](results/plot_regresi_Biaya_Akuisisi_Pelanggan_Juta_IDR_vs_Pendapatan_Tahunan_Miliar_IDR.png)
+    > ![alt text](results/plot_regresi_Biaya_Akuisisi_Pelanggan_Juta_IDR_vs_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
     > Garis regresi linear pada grafik menunjukkan hubungan linear positif antara Biaya_Akuisisi_Pelanggan_Juta_IDR dan Pendapatan_Tahunan_Miliar_IDR. Kemiringan garis yang naik menandakan bahwa semakin besar biaya akuisisi pelanggan, maka pendapatan tahunan cenderung meningkat.Nilai Adjusted R-squared sebesar 0,991 menunjukkan bahwa 99,1% variasi pendapatan tahunan dapat dijelaskan oleh biaya akuisisi pelanggan. Hal ini menandakan bahwa model regresi memiliki tingkat kecocokan yang sangat tinggi terhadap data. Titik-titik data yang sebagian besar berada dekat dengan garis regresi juga menunjukkan bahwa hubungan antar variabel bersifat kuat dan konsisten.
 
