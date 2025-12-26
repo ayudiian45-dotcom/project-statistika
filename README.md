@@ -83,18 +83,29 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
     ![alt text](results/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
+    ![alt text](results/boxplot_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
     > Berdasarkan histogram Pendapatan_Tahunan_Miliar_IDR, terlihat bahwa data menyebar cukup merata di seluruh rentang nilai. Nilai mean (31,88) dan median (31,30) yang hampir sama menunjukkan bahwa distribusi data cenderung simetris dan tidak condong ke salah satu sisi. Hal ini sesuai dengan bentuk histogram yang tidak memperlihatkan kemiringan yang ekstrem.
-  - *Sematkan gambar plot dari folder /results...*
-    ![alt text](
+   > Selain itu, nilai standar deviasi sebesar 19,79 menunjukkan bahwa meskipun pusat data berada di sekitar 31 miliar IDR, penyebaran data dari nilai tersebut cukup besar. Kondisi ini terlihat pada histogram yang menunjukkan data tersebar dari pendapatan rendah hingga tinggi. Dengan demikian, distribusi data dapat dikatakan seimbang, namun memiliki variasi pendapatan yang relatif tinggi.
 
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
   - *Nilai p-value...*
+    > "--- Hasil Uji Normalitas Shapiro-Wilk ---"
+
+     >      Shapiro-Wilk normality test
+
+>     data:  data_bersih[[kolom_uji]]
+>     W = 0.94664, p-value = 1.497e-14
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
+    > "Interpretasi: p-value = 0 <= 0.05. Data kemungkinan besar TIDAK terdistribusi normal."
+    > Hasil uji Shapiro–Wilk menunjukkan bahwa data tidak terdistribusi normal, sehingga pemilihan metode analisis statistik selanjutnya perlu disesuaikan agar hasil yang diperoleh tetap valid dan dapat dipertanggungjawabkan.
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
+    > 
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
+    > Berdasarkan Q–Q Plot untuk variabel Pendapatan_Tahunan_Miliar_IDR, terlihat bahwa titik-titik data tidak sepenuhnya mengikuti garis lurus (garis diagonal merah). Pada bagian tengah, beberapa titik masih relatif mendekati garis, namun pada bagian kuantil rendah dan kuantil tinggi terlihat penyimpangan yang cukup jelas.
+    > Pola titik yang melengkung (tidak linear) menunjukkan bahwa distribusi data menyimpang dari distribusi normal. Penyimpangan ini menandakan bahwa data memiliki bentuk distribusi yang tidak simetris atau memiliki ekor yang berbeda dari distribusi normal.
 
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
