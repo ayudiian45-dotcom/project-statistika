@@ -52,22 +52,41 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan*
     > Berdasarkan hasil analisis pada variabel Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai mean sebesar 31,88, median sebesar 31,31, dan modus sebesar 1,87.
-    > ![alt text](screenshot)
-    > 
 
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
     > Nilai mean menunjukkan bahwa rata-rata pendapatan tahunan startup berada di sekitar 31,88 miliar rupiah. Nilai median yang hampir sama dengan mean menandakan bahwa sebaran data pendapatan relatif seimbang dan tidak terlalu condong ke salah satu sisi. Sementara itu, nilai modus yang lebih kecil menunjukkan bahwa pendapatan dengan nilai rendah cukup sering muncul dalam dataset, meskipun secara keseluruhan terdapat banyak startup dengan pendapatan yang lebih tinggi.
 
-> Secara umum, dapat disimpulkan bahwa sebagian besar startup memiliki pendapatan di kisaran menengah, dengan variasi pendapatan dari yang rendah hingga tinggi, seperti yang terlihat pada histogram.
+    > Secara umum, dapat disimpulkan bahwa sebagian besar startup memiliki pendapatan di kisaran menengah, dengan variasi pendapatan dari yang rendah hingga tinggi, seperti yang terlihat pada histogram.
 
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
+    > "Standar Deviasi dari Pendapatan_Tahunan_Miliar_IDR : 19.79"
+    > "Range dari Pendapatan_Tahunan_Miliar_IDR : 1 - 66.89 = 65.89"
+    > "Ringkasan 5 Angka untuk Pendapatan_Tahunan_Miliar_IDR :"
+    >  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    >  1.00   14.31   31.30   31.88   49.04   66.89 
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
+    > Standar Deviasi = 19,79.
+    > Nilai standar deviasi sebesar 19,79 menunjukkan bahwa data pendapatan tahunan cukup menyebar dari nilai rata-ratanya (mean = 31,88). Artinya, pendapatan tiap data tidak terlalu berdekatan, melainkan memiliki variasi yang cukup besar antar perusahaan/objek yang diamati.
+    > Range (Jangkauan Data).Range dihitung dari selisih nilai maksimum dan minimum:
+    > Range = 66,89 − 1,00 = 65,89
+    > Nilai range yang besar (65,89) menunjukkan bahwa terdapat perbedaan pendapatan yang sangat jauh antara data terendah dan data tertinggi. Ini menandakan penyebaran data yang luas.
+    > Ringkasan 5 Angka (Five-Number Summary)
+    > Minimum (1,00) → Pendapatan terendah dalam data
+    > Kuartil 1 / Q1 (14,31) → 25% data berada di bawah nilai ini
+    > Median (31,30) → Nilai tengah data
+    > Kuartil 3 / Q3 (49,04) → 75% data berada di bawah nilai ini
+    > Maksimum (66,89) → Pendapatan tertinggi dalam data
+    > Selisih antara Q1 dan Q3 cukup besar, yang menunjukkan bahwa 50% data tengah juga cukup menyebar, bukan terkonsentrasi pada satu nilai tertentu.
+    > Data Pendapatan_Tahunan_Miliar_IDR memiliki penyebaran yang cukup besar. Hal ini terlihat dari nilai standar deviasi sebesar 19,79 dan range sebesar 65,89 yang menunjukkan adanya perbedaan pendapatan yang cukup jauh antara nilai terendah dan tertinggi. Selain itu, ringkasan lima angka menunjukkan bahwa data tidak terkonsentrasi pada satu nilai tertentu, sehingga variasi pendapatan antar data tergolong tinggi.
+    
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
     ![alt text](results/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
-    > 
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
+    > Berdasarkan histogram Pendapatan_Tahunan_Miliar_IDR, terlihat bahwa data menyebar cukup merata di seluruh rentang nilai. Nilai mean (31,88) dan median (31,30) yang hampir sama menunjukkan bahwa distribusi data cenderung simetris dan tidak condong ke salah satu sisi. Hal ini sesuai dengan bentuk histogram yang tidak memperlihatkan kemiringan yang ekstrem.
+  - *Sematkan gambar plot dari folder /results...*
+    ![alt text](
 
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
